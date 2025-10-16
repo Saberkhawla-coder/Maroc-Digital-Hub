@@ -1,0 +1,202 @@
+{
+  "sectors": [
+    {
+      "id": "1",
+      "title": "HealthTech",
+      "startups": 2,
+      "icon": "FaHeartbeat"
+    },
+    {
+      "id": "2",
+      "title": "FinTech",
+      "startups": 5,
+      "icon": "FaMoneyBillWave"
+    },
+    {
+      "id": "3",
+      "title": "EdTech",
+      "startups": 3,
+      "icon": "FaGraduationCap"
+    },
+    {
+      "id": "4",
+      "title": "AgriTech",
+      "startups": 4,
+      "icon": "FaSeedling"
+    },
+    {
+      "id": "5",
+      "title": "E-Commerce",
+      "startups": 6,
+      "icon": "FaShoppingCart"
+    },
+    {
+      "id": "6",
+      "title": "AI & Data",
+      "startups": 8,
+      "icon": "FaBrain"
+    },
+    {
+      "id": "7",
+      "title": "GreenTech",
+      "startups": 2,
+      "icon": "FaLeaf"
+    },
+    {
+      "id": "8",
+      "title": "Logistics",
+      "startups": 3,
+      "icon": "FaTruck"
+    }
+  ],
+  "Startup": [
+    {
+      "id": "1",
+      "img": "/imgToday.jpg",
+      "name": "TechMaroc Solutions",
+      "desc": "Solutions de paiement digital pour l'Afrique",
+      "month": "2025-10",
+      "createdBy": "admin@gmail.com",
+      "sectorId": "1"
+    },
+    {
+      "name": "Green Energy",
+      "desc": "Innovation dans les énergies renouvelables",
+      "img": "/imgToday.jpg",
+      "dateCreation": "2025-10-15T14:19:28.359Z",
+      "month": "2025-10",
+      "createdBy": "admin@gmail.com",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "img": "/imgToday.jpg",
+      "name": "EduSmart",
+      "createdBy": "admin@gmail.com",
+      "desc": "Plateforme d'apprentissage en ligne",
+      "month": "2025-10",
+      "sectorId": "3"
+    }
+  ],
+  "Events": [
+    {
+      "id": "1",
+      "title": "Startup Weekend Casablanca",
+      "lieu": "Technopark Casablanca",
+      "date": "18/10/2025"
+    },
+    {
+      "id": "2",
+      "title": "Startup Weekend Casablanca",
+      "lieu": "Technopark Casablanca",
+      "date": "17/10/2025"
+    },
+    {
+      "id": "3",
+      "title": "Startup Weekend Casablanca",
+      "lieu": "Technopark Casablanca",
+      "date": "19/10/2025"
+    },
+    {
+      "id": "4",
+      "title": "Startup Weekend Casablanca",
+      "lieu": "Technopark Casablanca",
+      "date": "19/10/2025"
+    },
+    {
+      "id": "384a",
+      "title": "test",
+      "img": "C:\\fakepath\\Auth.jpg",
+      "date": "2024-01-01",
+      "lieu": "Fes"
+    }
+  ],
+  "Forum": [
+    {
+      "id": "1",
+      "img": "/imgPersonne.jpg",
+      "name": "KHAWLA SABER",
+      "title": "Retour d'expérience : Startup Weekend Casa",
+      "desc": "Je viens de participer au Startup Weekend à Casablanca. Quelle expérience incroyable ! 54h pour créer une startup de A à Z. Je recommande vivement à tous les entrepreneurs."
+    },
+    {
+      "id": "2",
+      "img": "/imgPersonne.jpg",
+      "name": "KHAWLA SABER",
+      "title": "Retour d'expérience : Startup Weekend Casa",
+      "desc": "Je viens de participer au Startup Weekend à Casablanca. Quelle expérience incroyable ! 54h pour créer une startup de A à Z. Je recommande vivement à tous les entrepreneurs."
+    },
+    {
+      "id": "3",
+      "img": "/imgPersonne.jpg",
+      "name": "KHAWLA SABER",
+      "title": "Retour d'expérience : Startup Weekend Casa",
+      "desc": "Je viens de participer au Startup Weekend à Casablanca. Quelle expérience incroyable ! 54h pour créer une startup de A à Z. Je recommande vivement à tous les entrepreneurs."
+    },
+    {
+      "id": "4522",
+      "title": "nnsns",
+      "desc": "ssnsnsnsnsn",
+      "img": "",
+      "name": "amal"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "Saber",
+      "email": "saber@gmail.com",
+      "password": "123456",
+      "role": "startup"
+    },
+    {
+      "id": "1",
+      "username": "zineb",
+      "email": "zineb@gmail.com",
+      "password": "123456",
+      "role": "startup"
+    },
+    {
+      "id": "2",
+      "username": "Maha",
+      "email": "maha@gmail.com",
+      "password": "123456",
+      "role": "investor"
+    },
+    {
+      "id": "3",
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "4de2",
+      "username": "kamal",
+      "email": "kamal@gmail.com",
+      "password": "kamal12@",
+      "role": "investor"
+    },
+    {
+      "id": "4de3",
+      "username": "khawla",
+      "email": "khawla@gmail.com",
+      "password": "khawla12@",
+      "role": "investor"
+    },
+    {
+      "id": "630a",
+      "username": "saber",
+      "email": "saber@gmail.com",
+      "password": "saber12@",
+      "role": "Startup"
+    },
+    {
+      "id": "139d",
+      "username": "amal",
+      "email": "Amal@gmail.com",
+      "password": "amal12@",
+      "role": "investor"
+    }
+  ]
+}
