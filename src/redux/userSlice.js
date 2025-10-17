@@ -10,7 +10,7 @@ const userSlice = createSlice({
   name: 'user',
   initialState,
   reducers: {
-    login: (state, action) => {
+    login:(state, action) => {
       state.role = action.payload.role.toLowerCase() 
       state.userData = action.payload.userData
       state.isAuthenticated = true

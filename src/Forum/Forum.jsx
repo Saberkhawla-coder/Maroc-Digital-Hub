@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Discussion from './Discussion'
 import axios from 'axios'
 import { useSelector } from 'react-redux'
@@ -30,21 +30,11 @@ function Forum() {
       setShowForm(true)
     }
 
-  const getForum = async () => {
-    try {
-      const res = await axios.get('http://localhost:4000/Forum')
-      setData(res.data)
-    } catch (err) {
-      console.log(err)
-    }
-  }
-
-  useEffect(() => {
-    getForum()
-  }, [])
+ 
 
   const AddForum = async (e) => {
     e.preventDefault()
+    
     const infos = { title, desc,img:"", name:user.username  }
     try {
       const res = await axios.post('http://localhost:4000/Forum', infos)
@@ -52,15 +42,18 @@ function Forum() {
       setTitle("")
       setDesc("")
       setShowForm(false)
+      console.log(data)
     } catch (err) {
       console.log(err)
     }
   }
+  
 
   return (
     <div>
-      {/* --- Hero Section --- */}
-      <div style={{ position: "relative", width: "100%" }}>
+      {
+        role!=="admin" &&(
+          <div style={{ position: "relative", width: "100%" }}>
         <img
           src="/imgToday.jpg"
           alt="not found"
@@ -96,6 +89,9 @@ function Forum() {
           </div>
         </div>
       </div>
+        )
+      }
+      
       {showForm && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60">
           <div className="bg-white p-6 rounded-xl shadow-lg max-w-md w-full relative">
@@ -134,8 +130,20 @@ function Forum() {
         </div>
       )}
 
-      
-      <Discussion forum={data} />
+      {
+        role==="admin" &&(
+           <div className='flex gap-10 justify-center items-center'>
+            <button
+              className='bg-[#5465FF] px-6 py-3 rounded-2xl mt-6 cursor-pointer'
+              onClick={handleAddClick}
+              
+            >
+              Nouveau message
+            </button>
+          </div>
+        )
+      }
+      <Discussion  />
     </div>
   )
 }

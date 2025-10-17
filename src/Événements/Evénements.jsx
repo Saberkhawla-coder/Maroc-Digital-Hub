@@ -45,8 +45,12 @@ function Evénements() {
 
   return (
     <div>
-      <div style={{ position: 'relative', width: '100%' }}>
-        <img
+        {role !== "admin" &&(
+        <div style={{ position: 'relative', width: '100%' }}> 
+          
+     
+          <div>
+            <img
           src="/imgToday.jpg"
           alt="not found"
           style={{ width: '100%', height: '100vh', objectFit: 'cover' }}
@@ -62,6 +66,11 @@ function Evénements() {
             backgroundColor: 'rgba(43, 44, 47, 0.9)',
           }}
         ></div>
+
+          </div>
+        
+     
+     
 
         <div
           style={{
@@ -89,10 +98,11 @@ function Evénements() {
           </div>
         </div>
       </div>
-
+ )}
       {/* Formulaire */}
+     
       {showForm && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 z-1000 ">
           <div className="bg-white p-6 rounded-xl shadow-lg max-w-md w-full relative">
             <button
               className="absolute top-2 right-2 text-gray-500 hover:text-black text-xl cursor-pointer"
@@ -124,6 +134,18 @@ function Evénements() {
           {alertMessage}
         </div>
       )}
+      {
+        role==="admin" &&(
+           <div className="flex gap-10 justify-center items-center">
+            <button
+              className="bg-[#5465FF] px-6 py-3 rounded-2xl mt-6 cursor-pointer hover:bg-[#4651e8] transition"
+              onClick={handleAddClick}
+            >
+              Créer un événement
+            </button>
+          </div>
+        )
+      }
 
       <AllEvents />
     </div>

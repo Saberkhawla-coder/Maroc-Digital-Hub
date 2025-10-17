@@ -51,13 +51,13 @@
   ],
   "Startup": [
     {
-      "id": "1",
-      "img": "/imgToday.jpg",
       "name": "TechMaroc Solutions",
       "desc": "Solutions de paiement digital pour l'Afrique",
+      "img": "/imgToday.jpg",
+      "dateCreation": "2025-10-16T12:58:51.845Z",
       "month": "2025-10",
       "createdBy": "admin@gmail.com",
-      "sectorId": "1"
+      "id": "1"
     },
     {
       "name": "Green Energy",
@@ -80,12 +80,6 @@
   ],
   "Events": [
     {
-      "id": "1",
-      "title": "Startup Weekend Casablanca",
-      "lieu": "Technopark Casablanca",
-      "date": "18/10/2025"
-    },
-    {
       "id": "2",
       "title": "Startup Weekend Casablanca",
       "lieu": "Technopark Casablanca",
@@ -104,11 +98,10 @@
       "date": "19/10/2025"
     },
     {
-      "id": "384a",
-      "title": "test",
-      "img": "C:\\fakepath\\Auth.jpg",
-      "date": "2024-01-01",
-      "lieu": "Fes"
+      "id": "5",
+      "title": "Startup Weekend Casablanca",
+      "lieu": "Technopark Casablanca",
+      "date": "19/10/2025"
     }
   ],
   "Forum": [
@@ -132,13 +125,6 @@
       "name": "KHAWLA SABER",
       "title": "Retour d'expérience : Startup Weekend Casa",
       "desc": "Je viens de participer au Startup Weekend à Casablanca. Quelle expérience incroyable ! 54h pour créer une startup de A à Z. Je recommande vivement à tous les entrepreneurs."
-    },
-    {
-      "id": "4522",
-      "title": "nnsns",
-      "desc": "ssnsnsnsnsn",
-      "img": "",
-      "name": "amal"
     }
   ],
   "users": [

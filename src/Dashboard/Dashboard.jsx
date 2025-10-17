@@ -33,7 +33,7 @@ function Dashboard() {
     {
       id: 3,
       title: 'Participants',
-      value: events.reduce((acc, e) => acc + (e.participants || 0), 0),
+      value: users.length,
       icon: <IoPeople style={{ color: "#0D99FF" }} />
     },
     {

@@ -71,7 +71,7 @@ function Home() {
           }}
         >
           <h1 className='text-4xl leading-[5rem]' style={{color:"#9BB1FF"}}>Accélérez l'innovation au Maroc</h1>
-          <p className='text-xl font-light leading-[2rem]'>Découvrez les startups les plus prometteuses du royaume et connectez-vous avec l'écosystème digital marocain</p>
+          <p className='text-xl font-light '>Découvrez les startups les plus prometteuses du royaume et connectez-vous avec l'écosystème digital marocain</p>
           <div className='flex gap-10 justify-center items-center'>
             <input 
               type="text" 
